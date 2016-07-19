@@ -1,4 +1,4 @@
 Overview
 ========
 
-OFSP provides the general Zope 2 help.
+OFSP registers the Zope 2 OFS content types.
