@@ -10,15 +10,13 @@
 # FOR A PARTICULAR PURPOSE
 #
 ##############################################################################
-"""Version object"""
-
-__version__='$Revision: 1.55 $'[11:-2]
 
 from AccessControl.class_init import InitializeClass
 from AccessControl.SecurityInfo import ClassSecurityInfo
+from OFS.ObjectManager import BeforeDeleteException
 from OFS.SimpleItem import Item
 from Persistence import Persistent
-from OFS.ObjectManager import BeforeDeleteException
+
 
 class VersionException(BeforeDeleteException):
     pass
@@ -26,14 +24,14 @@ class VersionException(BeforeDeleteException):
 
 class Version(Persistent, Item):
     """ """
-    meta_type='Version'
+    meta_type = 'Version'
     security = ClassSecurityInfo()
-    cookie=''
-    index_html=None # Ugh.
+    cookie = ''
+    index_html = None  # Ugh.
 
     def __init__(self, id, title, REQUEST):
-        self.id=id
-        self.title=title
+        self.id = id
+        self.title = title
 
     def icon(self):
         return 'p_/broken'

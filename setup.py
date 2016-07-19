@@ -39,7 +39,6 @@ setup(name='Products.OFSP',
       ],
       install_requires=[
           'setuptools',
-          'ExtensionClass>=4.1a1',
           'AccessControl',
           'Persistence',
           'Zope2 >= 2.13.0a1',
