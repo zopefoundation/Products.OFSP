@@ -1,9 +1,10 @@
 Changelog
 =========
 
-3.0.1 (unreleased)
-------------------
+4.0 (unreleased)
+----------------
 
+- Removed code from project, which got merged back into Zope2 itself.
 
 3.0 (2016-07-19)
 ----------------

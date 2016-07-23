@@ -15,7 +15,7 @@
 from setuptools import setup, find_packages
 
 setup(name='Products.OFSP',
-      version='3.0.1.dev0',
+      version='4.0.dev0',
       url='http://pypi.python.org/pypi/Products.OFSP',
       license='ZPL 2.1',
       description="General Zope 2 help screens.",
@@ -39,9 +39,6 @@ setup(name='Products.OFSP',
       ],
       install_requires=[
           'setuptools',
-          'AccessControl',
-          'Persistence',
-          'Zope2 >= 2.13.0a1',
       ],
       include_package_data=True,
       zip_safe=False,
