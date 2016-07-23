@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0 (unreleased)
+4.0 (2016-07-23)
 ----------------
 
 - Removed code from project, which got merged back into Zope2 itself.
