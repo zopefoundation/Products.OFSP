@@ -9,6 +9,7 @@ parts
 *.pyo
 *.so
 .installed.cfg
+.tox
 develop-eggs/
 eggs/
 *.egg-info/
