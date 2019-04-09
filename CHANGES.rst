@@ -1,9 +1,10 @@
 Changelog
 =========
 
-4.0.2 (unreleased)
+5.0 (unreleased)
 ------------------
 
+- Drop support for Python 3.4.
 
 4.0.1 (2017-06-11)
 ------------------

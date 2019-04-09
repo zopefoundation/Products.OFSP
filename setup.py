@@ -14,7 +14,7 @@
 
 from setuptools import setup, find_packages
 
-__version__ = '4.0.2.dev0'
+__version__ = '5.0.dev0'
 
 
 setup(name='Products.OFSP',
@@ -39,7 +39,6 @@ setup(name='Products.OFSP',
           "Programming Language :: Python :: 2",
           "Programming Language :: Python :: 2.7",
           "Programming Language :: Python :: 3",
-          "Programming Language :: Python :: 3.4",
           "Programming Language :: Python :: 3.5",
           "Programming Language :: Python :: 3.6",
           "Programming Language :: Python :: Implementation :: CPython",
